@@ -28,7 +28,7 @@ class Login extends StatelessWidget {
               scure: false,
             ),
             Textfieldpage(text: 'Email', icon1: Icons.mail,
-              scure: false ,
+              //scure: false ,
             ),
             Textfieldpage(
               text: 'Password',

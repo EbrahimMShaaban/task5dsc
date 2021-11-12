@@ -10,7 +10,7 @@ class Textfieldpage extends StatelessWidget {
     this.text,
     this.icon1,
     this.icon2,
-    this.scure,
+    this.scure=false,
   });
 
   @override
@@ -35,6 +35,7 @@ class Textfieldpage extends StatelessWidget {
             color: Colors.grey,
           ),
           labelText: text,
+
           labelStyle: TextStyle(fontSize: 18,color: Colors.amberAccent,
           ),
           helperText: 'required',

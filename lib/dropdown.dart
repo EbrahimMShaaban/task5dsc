@@ -7,7 +7,6 @@ class Dropdown extends StatefulWidget {
 
 class _DropdownState extends State<Dropdown> {
   String dropdownValue = '1';
-
   @override
   Widget build(BuildContext context) {
     return DropdownButton<String>(
